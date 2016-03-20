@@ -1,0 +1,5 @@
+{
+  "name": "csv-parse",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/wdavidw/node-csv-parse"
+}
