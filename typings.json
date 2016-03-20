@@ -1,5 +1,8 @@
 {
   "name": "csv-parse",
   "main": "index.d.ts",
-  "homepage": "https://github.com/wdavidw/node-csv-parse"
+  "homepage": "https://github.com/wdavidw/node-csv-parse",
+  "ambientDependencies": {
+    "node": "registry:dt/node#4.0.0+20160319033040"
+  }
 }
