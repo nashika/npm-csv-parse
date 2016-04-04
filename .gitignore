@@ -1,3 +1,5 @@
 .idea/
 node_modules/
+test/browser.d.ts
+test/main.d.ts
 typings/

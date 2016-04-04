@@ -19,7 +19,7 @@ function test1() {
 function test2() {
   console.log("###Test using the stream API###");
   let output2:Array<any> = [];
-  let parser = parse({delimiter: ':'});
+  let parser:parse.CsvParser = parse({delimiter: ':'});
 
   parser.on('readable', () => {
     let record:any;
