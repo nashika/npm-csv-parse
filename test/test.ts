@@ -33,7 +33,6 @@ function test2() {
   parser.on('finish', () => {
     console.log(`#Output2#`);
     console.log(output2);
-    test3();
   });
   let input2:Array<string> = [
     "root:x:0:0:root:/root:/bin/bash\n",
@@ -45,16 +44,4 @@ function test2() {
   parser.write(input2[0]);
   parser.write(input2[1]);
   parser.end();
-}
-
-function test3() {
-/*  console.log("###Test Using the synchronous API###");
-  let input3 = '"key_1","key_2"\n"value 1","value 2"';
-  console.log(`#Input3#`);
-  console.log(input3);
-  let records:any = parseSync(input3, {columns: true});
-  console.log(`#Output3#`);
-  console.log(records);
-
-  console.log("Finished!");*/
 }
