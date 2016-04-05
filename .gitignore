@@ -1,8 +1,5 @@
 .idea/
 node_modules/
-sync/test/browser.d.ts
-sync/test/main.d.ts
-sync/typings/
 test/browser.d.ts
 test/main.d.ts
 typings/

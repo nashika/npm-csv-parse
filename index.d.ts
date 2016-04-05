@@ -103,14 +103,3 @@ declare function parse(options?:parse.ICsvParseOpts):parse.CsvParser;
 declare function parse(dataOrOptions:string|parse.ICsvParseOpts, optionsOrCallback?:parse.ICsvParseOpts|parse.CsvParseCallbackType, callback?:parse.CsvParseCallbackType):void|parse.CsvParser;
 
 export = parse;
-
-/*
-
-declare module "csv-parse/lib/sync" {
-
-  function parse(data:string, options?:ICsvParseOpts):CsvParseResultType;
-
-  export = parse;
-
-}
-*/

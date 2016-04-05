@@ -1,6 +1,9 @@
 {
   "name": "csv-parse",
   "main": "index.d.ts",
+  "files": [
+    "lib/sync.d.ts"
+  ],
   "homepage": "https://github.com/wdavidw/node-csv-parse",
   "ambientDependencies": {
     "node": "registry:dt/node#4.0.0+20160330064709"
